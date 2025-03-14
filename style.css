@@ -85,7 +85,7 @@ p {
     margin-bottom: 40px;
 }
 
-.buttons > * {
+.buttons > a > * {
     height: 40px;
     width: 25%;
     border-radius: 30px;
@@ -95,11 +95,11 @@ p {
     color: #0084ff;
     cursor: pointer;
 }
-.buttons > *:hover {
+.buttons > a > *:hover {
     animation: change-color 0.1s ease-in-out 0s forwards;
 }
-.buttons > *:active {
-    color: white;
+.buttons > a > *:active {
+    color: #cceeff;
 }
 
 @keyframes change-color {

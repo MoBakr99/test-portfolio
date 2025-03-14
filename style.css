@@ -130,6 +130,7 @@ p {
 
 .social > a > * {
     filter: brightness(0) saturate(100%) invert(60%) sepia(55%) saturate(5563%) hue-rotate(173deg) brightness(98%) contrast(106%);
+    transition: 0.2s;
 }
 .social > a > *:hover {
     transform: scale(1.05);
@@ -155,6 +156,7 @@ p {
     border-bottom-right-radius: 20% 30%;
     border-bottom-left-radius: 40% 50%;
     rotate: -10deg;
+    transition: 0.5s;
 }
 
 .circle2 {
@@ -170,6 +172,7 @@ p {
     border-bottom-right-radius: 30% 50%;
     border-bottom-left-radius: 40% 30%;
     rotate: 10deg;
+    transition: 0.5s;
 }
 
 .profile-photo {

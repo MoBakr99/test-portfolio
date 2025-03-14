@@ -1,5 +1,6 @@
 body {
-    background-color: #000080;
+    background-color: #00001b;
+    background-image: radial-gradient(circle 700px, #000080, black);
     margin-left: 0%;
 }
 
@@ -11,7 +12,7 @@ body {
     height: 60px;
     width: 100%;
     top: 0;
-    box-shadow: 10px 0px 5px 0 #000080 inset, -10px 0px 5px 0 #000080 inset, 0px -2px 5px 0 white inset;
+    box-shadow: 10px 0px 5px 0 black inset, -10px 0px 5px 0 black inset, 0px -2px 5px 0 white inset;
     color: white;
 }
 
@@ -43,7 +44,6 @@ body {
 }
 .navigations > *:hover {
     color: #b2d4e2;
-    background-color: #000080;
     transform: scale(1.03);
 }
 .navigations > *:active {
